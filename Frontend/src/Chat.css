@@ -1,0 +1,54 @@
+.chats {
+    max-width: 900px;
+    overflow-y: auto;
+    padding: 8rem;
+    
+
+    /* Firefox */
+    scrollbar-width: normal;
+    scrollbar-color: black transparent; 
+}
+
+/* Chrome, Edge, Safari */
+.chats::-webkit-scrollbar {
+    width: 8px;              /* scrollbar width */
+}
+
+.chats::-webkit-scrollbar-track {
+    background: transparent; /* track background */
+}
+
+.chats::-webkit-scrollbar-thumb {
+    background-color: black; /* scrollbar color */
+    border-radius: 4px;      /* rounded edges */
+}
+/* end of .chats */
+
+.userDiv{
+      display:flex;
+    justify-content:flex-end;
+}
+
+.gptDiv{
+    text-align:left;
+    font-size:0.9rem;
+}
+
+.userMessage{
+    background-color:#323232;
+    padding:10px 20px;
+    border-radius:14px;
+    margin-left:15rem;
+    max-width:500px;
+    width:fit-content;
+
+}
+.hljs{
+
+border-radius:14px !important;
+
+}
+
+pre{
+    white-space:pre-wrap;
+}
